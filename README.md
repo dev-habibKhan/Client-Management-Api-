@@ -1,8 +1,28 @@
-# React + Vite
+# React Client Management App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a simple React application for managing clients using a mock API.
 
-Currently, two official plugins are available:
+## Table of Contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Features](#features)
+- [Getting Started](#getting-started)
+- [Usage](#usage)
+- [API Endpoints](#api-endpoints)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Features
+
+- **GET /client:** Fetch the list of clients.
+- **ADD /client:** Add a new client.
+- **UPDATE /client/:id:** Update an existing client.
+- **DELETE /client/:id:** Delete a client.
+
+## Getting Started
+
+To get started with this project, follow these steps:
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/dev-habibKhan/Client-Management-Api-.git
